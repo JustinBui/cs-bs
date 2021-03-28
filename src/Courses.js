@@ -47,23 +47,39 @@ export function UpperDivs() {
         </tr>
         {/* Courses */}
         <tr>
-          <th>CSPC 120</th>
+          <th>CSPC 254</th>
           <th class="resources"></th>
         </tr>
         <tr>
-          <th>CSPC 121</th>
+          <th>CSPC 315</th>
           <th class="resources"></th>
         </tr>
         <tr>
-          <th>CSPC 131</th>
+          <th>CSPC 323</th>
           <th class="resources"></th>
         </tr>
         <tr>
-          <th>CSPC 240</th>
+          <th>CSPC 332</th>
           <th class="resources"></th>
         </tr>
         <tr>
-          <th>CSPC 223</th>
+          <th>CSPC 335</th>
+          <th class="resources"></th>
+        </tr>
+        <tr>
+          <th>CSPC 351</th>
+          <th class="resources"></th>
+        </tr>
+        <tr>
+          <th>CSPC 362</th>
+          <th class="resources"></th>
+        </tr>
+        <tr>
+          <th>CSPC 471</th>
+          <th class="resources"></th>
+        </tr>
+        <tr>
+          <th>CSPC 481</th>
           <th class="resources"></th>
         </tr>
       </thead>
