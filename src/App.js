@@ -1,4 +1,6 @@
 import "./App.css";
+import { LowerDivs } from "./Courses.js";
+import { UpperDivs } from "./Courses.js";
 
 function App() {
   return (
@@ -13,30 +15,9 @@ function App() {
         science is not an easy field but we are all here to help one another
         learn and grow.
       </p>
-      <h2>All Courses: </h2>
-      <table class="table-class">
-        <thead>
-          {/* <!-- Headers --> */}
-
-          <tr>
-            <th class="course">Course Name</th>
-            <th class="resources">Resources</th>
-          </tr>
-          {/* Courses */}
-          <tr>
-            <th>CSPC 120</th>
-            <th class="resources">
-              <a href="https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb ">
-                sifuhsef
-              </a>
-            </th>
-          </tr>
-          <tr>
-            <th>CSPC 121</th>
-          </tr>
-        </thead>
-        <tbody id="tableData"></tbody>
-      </table>
+      <h2>Lower Division: </h2>
+      <div> {LowerDivs()} </div>
+      <h2>Upper Division: </h2>
     </body>
   );
 }

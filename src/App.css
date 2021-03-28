@@ -37,6 +37,10 @@
   }
 } */
 
+.body {
+  display: flex;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -46,4 +50,9 @@ th,
 td {
   border: 1px solid #cccccc;
   padding: 8px;
+}
+
+.title {
+  align-items: center;
+  font-size: 20px;
 }
