@@ -42,12 +42,14 @@
 }
 
 table {
-  width: 100%;
+  justify-content: center;
+  width: 50%;
   border-collapse: collapse;
 }
 
 th,
 td {
+  width: 50%;
   border: 1px solid #cccccc;
   padding: 8px;
 }
