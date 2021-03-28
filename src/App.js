@@ -18,11 +18,9 @@ function App() {
         learn and grow.
       </p>
       <h2>Lower Division: </h2>
-      <div class="tablebox">
-      <div> {LowerDivs()} </div>
+      <div class="tablebox"> {LowerDivs()} </div>
       <h2>Upper Division: </h2>
-      <div> {UpperDivs()} </div>
-      </div>
+      <div class="tablebox"> {UpperDivs()} </div>
     </body>
   );
 }
