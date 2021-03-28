@@ -2,6 +2,8 @@ import "./App.css";
 import { LowerDivs } from "./Courses.js";
 import { UpperDivs } from "./Courses.js";
 
+import React from "react";
+
 function App() {
   return (
     <body>
@@ -18,6 +20,7 @@ function App() {
       <h2>Lower Division: </h2>
       <div> {LowerDivs()} </div>
       <h2>Upper Division: </h2>
+      <div> {UpperDivs()} </div>
     </body>
   );
 }
