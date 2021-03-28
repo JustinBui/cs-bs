@@ -7,7 +7,7 @@ import React from "react";
 function App() {
   return (
     <body>
-      <h1 class="title">CS BS</h1>
+      <h1 class="title">Computer Science BS</h1>
       <p class="description">
         Attention CSUF computer science majors! Are you tired of not learning
         enough from your computer science professors? Don’t sweat it!
@@ -18,9 +18,11 @@ function App() {
         learn and grow.
       </p>
       <h2>Lower Division: </h2>
+      <div class="tablebox">
       <div> {LowerDivs()} </div>
       <h2>Upper Division: </h2>
       <div> {UpperDivs()} </div>
+      </div>
     </body>
   );
 }

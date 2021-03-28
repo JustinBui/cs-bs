@@ -37,24 +37,51 @@
   }
 } */
 
-.body {
-  display: flex;
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(29, 27, 27);
+  color:rgb(153, 145, 145);
+  display: flexbox;
 }
 
 table {
+  margin: 20px;
   justify-content: center;
-  width: 50%;
+  width: 75%;
   border-collapse: collapse;
+}
+
+.tablebox {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  width: 75%;
+}
+.description {
+  display: flex;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.href {
+  color:rgb(153, 145, 145);
 }
 
 th,
 td {
+  text-align: center;
   width: 50%;
   border: 1px solid #cccccc;
   padding: 8px;
 }
 
 .title {
-  align-items: center;
-  font-size: 20px;
+
+  background-color: aqua;
+  background-image: url('images/title_background.jpg');
+  padding: 100px;
+  text-align: center;
+  font-size: 50px;
 }
